@@ -1,0 +1,225 @@
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+
+a{
+  list-style:none;
+  float:left;
+  text-decoration: none;
+}
+
+
+
+.header{
+  background-color: white;
+  height:75px;
+  width:100%;
+  position:fixed;
+  top:0px;
+  z-index:10;
+  border-bottom:1px solid #dee7ec;
+}
+
+.header-logo{
+  height:60px;
+  width:110px;
+  float:left;
+  padding-left:170px;
+  padding-right: 10px;
+  padding-top: 29px;
+}
+
+.li a{
+  padding:0 20px;
+  display:block;
+  line-height: 60px;
+  color:black;
+  transition:all 0.8s;
+  font-weight:100;
+
+}
+
+.li a:hover {
+  background-color: #f5f5f5;
+}
+
+.btn{
+  color: black;
+}
+
+.fab{
+  color:black;
+  font-size:22px;
+  padding:18px 20px 0 10px;
+  cursor:pointer;
+}
+
+.fa-twitter:hover{
+  color:#55acee;
+}
+
+.fa-facebook-f:hover{
+  color:#3b5998;
+}
+
+
+.copy-container img{
+  height:450px;
+  width:450px;
+  float:right;
+  padding-right: 120px;
+  position: absolute;
+  top:160px;
+  left:650px;
+  z-index:5;
+}
+
+.copy-container h1{
+  font-size:90px;
+  padding:230px 20px 0 150px;
+  line-height:25px;
+  font-family:arial;
+}
+
+.copy-img img{
+  position: absolute;
+  top:340px;
+  left: 150px;
+  z-index:2;
+  height:100px;
+  width:500px;
+}
+
+.btn{
+  padding:8px 13px 8px 30px;
+  color:white;
+  display:inline-block;
+  background-color: black;
+  position: absolute;
+  top:485px;
+  left:150px;
+  border-radius: 50px;
+}
+
+.btn:hover{
+  opacity: 0.8;
+}
+
+.click span{
+  font-weight: bold;
+}
+
+.main1{
+  height:740px;
+  width:100%;
+  border-bottom:1px solid #dee7ec;
+}
+
+.space1{
+  height:20px;
+  width:100%;
+  background-color:#f5f5f5;
+}
+
+.main2{
+  height:590px;
+  width:100%;
+  border-bottom:1px solid #dee7ec;
+  padding-left: 150px;
+  padding-right:120px;
+}
+
+.main2 h1{
+  padding:55px 650px 45px 350px;
+  padding-bottom: 45px;
+  padding-top: 55px;
+  font-weight: lighter;
+
+}
+
+.news-img img{
+  height: 170px;
+  width:265px;
+}
+
+.news{
+  float: left;
+  height:300px;
+  width:265px;
+  margin-right: 45px;
+  position: relative;
+}
+
+.world{
+  position: absolute;
+  top:315px;
+  left:188px;
+  font-size:15px;
+}
+
+.day{
+  color:#c0c0c0;
+  font-weight: normal;
+  line-height: 10px;
+}
+
+.text-contents{
+  color:black;
+  font-size:19px;
+  line-height: 30px;
+}
+
+.news:hover{
+  opacity: 0.8;
+}
+
+.link1{
+  font-size: 15px;
+  padding:3px 13px;
+  color:white;
+  display:inline-block;
+  background-color: #dc143c;
+  position: absolute;
+  top:295px;
+  left:0px;
+  border-radius: 50px;
+}
+
+.link2{
+  font-size: 15px;
+  padding:3px 13px;
+  color:white;
+  display:inline-block;
+  background-color: #191970;
+  position: absolute;
+  top:295px;
+  left:0px;
+  border-radius: 50px;
+}
+
+.link3{
+  font-size: 15px;
+  padding:3px 13px;
+  color:white;
+  display:inline-block;
+  background-color: #ffa500;
+  position: absolute;
+  top:295px;
+  left:0px;
+  border-radius: 50px;
+}
+
+.world{
+  color: #87cefa;
+}
+
+.world:hover{
+  border-bottom: 1px solid #87cefa;
+}
+
+.space2{
+  height:20px;
+  width:100%;
+  background-color:#f5f5f5;
+}
